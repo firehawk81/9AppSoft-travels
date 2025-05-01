@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Dorne - Directory &amp; Listing Template | Contact</title>
+    <title>Read | Travel Blog</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -41,68 +41,54 @@
     <div id="header"></div>
 
     <!-- ***** Search Form Area ***** -->
-    
+    <!-- <div class="dorne-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="caviarSearch" id="search" placeholder="Search Your Desire Destinations or Events">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <!-- ***** Header Area Start ***** -->
     
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg)">
-    </div>
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg)"></div>
     <!-- ***** Breadcumb Area End ***** -->
 
-    <!-- ***** Contact Area Start ***** -->
-    <div class="dorne-contact-area d-md-flex" id="contact">
-        <!-- Contact Form Area -->
-        <div class="contact-form-area equal-height">
-            <div class="contact-text">
-                <h4>Hello, Get in touch with us</h4>
-                <p>We’re here to help! Whether you have a question about your booking, need assistance with changes, or just want to share feedback, our team is ready to assist you.</p>
+    <!-- ***** Listing Destinations Area Start ***** -->
+    <section class="dorne-listing-destinations-area section-padding-100-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading dark text-center">
+                        <span></span>
+                        <!-- <h4>Read about our top destinations</h4> -->
+                        <!-- <p>Editor’s pick</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Features Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+
+                        <div id="bh-posts"></div>
+
+                </div>
                 
-                <p></p>
-                <div class="contact-info d-lg-flex">
-                    <div class="single-contact-info">
-                        <h6><i class="fa fa-map-signs" aria-hidden="true"></i>Main Avenue Soho, NY</h6>
-                        <h6><i class="fa fa-map-signs" aria-hidden="true"></i>Live Chat?:Chat with us on WhatsApp</h6>
-                    </div>
-                    <div class="single-contact-info">
-                        <h6><i class="fa fa-envelope-o" aria-hidden="true"></i>b.flight@9appsoft.com.ng</h6>
-                        <h6><i class="fa fa-phone" aria-hidden="true"></i>+34 567 22478 49567</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form">
-                <div class="contact-form-title">
-                    <h6>Contact Business</h6>
-                </div>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email Address">
-                        </div>
-                        <div class="col-12">
-                            <input type="text" name="subject" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" class="form-control" id="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn dorne-btn">Send</button>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
-        <!-- Map Area -->
-        <div class="dorne-map-area equal-height">
-            <div id="googleMap"></div>
-        </div>
-    </div>
-    <!-- ***** Contact Area End ***** -->
+    </section>
+    <!-- ***** Listing Destinations Area End ***** -->
 
     <!-- ****** Footer Area Start ****** -->
     <footer class="dorne-footer-area">
@@ -137,18 +123,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
     <script src="js/others/plugins.js"></script>
-    <!-- Google Maps js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk"></script>
-    <script src="js/google-map/map-active.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
-</body>
 
+    
     <script type="text/javascript">
         $(function(){
             $("#header").load("layouts/header.html");
             $("#footer").load("layouts/footer.html");
         });
     </script>
+
+    
+    <script>
+        var bh_id = "60aE3BF7Cmj8xGNTU0Nw";
+        </script>
+        
+        <script src="https://www.bloghandy.com/api/bh_blogengine.js"></script>
+
+</body>
 
 </html>
